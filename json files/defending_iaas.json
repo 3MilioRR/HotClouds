@@ -1,0 +1,55 @@
+{
+	"name": "Defending IaaS",
+	"versions": {
+		"attack": "11",
+		"navigator": "5.1.0",
+		"layer": "4.5"
+	},
+	"domain": "defending-iaas",
+	"customDataURL": "https://raw.githubusercontent.com/center-for-threat-informed-defense/defending-iaas-with-attack/main/data/defending-iaas-1.0.json",
+	"description": "",
+	"filters": {
+		"platforms": [
+			"Linux",
+			"macOS",
+			"Windows",
+			"Network",
+			"IaaS",
+			"Azure AD",
+			"Office 365",
+			"SaaS",
+			"Google Workspace",
+			"Containers",
+			"PRE"
+		]
+	},
+	"sorting": 0,
+	"layout": {
+		"layout": "side",
+		"aggregateFunction": "average",
+		"showID": true,
+		"showName": true,
+		"showAggregateScores": true,
+		"countUnscored": false,
+		"expandedSubtechniques": "none"
+	},
+	"hideDisabled": false,
+	"techniques": [],
+	"gradient": {
+		"colors": [
+			"#ff6666ff",
+			"#ffe766ff",
+			"#8ec843ff"
+		],
+		"minValue": 0,
+		"maxValue": 100
+	},
+	"legendItems": [],
+	"metadata": [],
+	"links": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true,
+	"selectSubtechniquesWithParent": false,
+	"selectVisibleTechniques": false
+}
